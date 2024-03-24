@@ -7,35 +7,146 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4126B72BAC7B2C00A22755 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B4126B62BAC7B2C00A22755 /* test.mp3 */; };
+		2B4126B92BAC824700A22755 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2B4126B82BAC824700A22755 /* Localizable.xcstrings */; };
+		2B4126D52BAC98FC00A22755 /* VLPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4126D42BAC98FC00A22755 /* VLPlayerUITests.swift */; };
+		2B4126D72BAC98FC00A22755 /* VLPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4126D62BAC98FC00A22755 /* VLPlayerUITestsLaunchTests.swift */; };
+		2B4126DE2BAC992400A22755 /* PlayListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4126DD2BAC992400A22755 /* PlayListViewModelTests.swift */; };
+		2B4126E12BAC9CBB00A22755 /* PlaylistRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4126E02BAC9CBB00A22755 /* PlaylistRepositoryMock.swift */; };
+		2B4126E22BAC9D0B00A22755 /* PlaylistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688F82BA0B6670059FE61 /* PlaylistRepository.swift */; };
+		2B4126E32BAC9D2800A22755 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688F62BA0B6010059FE61 /* Song.swift */; };
+		2B4126E42BAC9D8600A22755 /* PlaylistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688D12B9F96280059FE61 /* PlaylistViewModel.swift */; };
+		2B4126E52BACA14400A22755 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B4126B62BAC7B2C00A22755 /* test.mp3 */; };
+		2B4126E62BACA16E00A22755 /* PlayerControlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688EF2BA09C500059FE61 /* PlayerControlViewModel.swift */; };
+		2B4126E72BACA17000A22755 /* PlayerControlViewModel+Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9794412BA8CC500003C2E5 /* PlayerControlViewModel+Remote.swift */; };
+		2B4B1F9B2BACD2C60093385A /* PlayerControlViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B1F9A2BACD2C60093385A /* PlayerControlViewModelTests.swift */; };
+		2B4B1F9D2BACD41D0093385A /* MockAVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B1F9C2BACD41D0093385A /* MockAVPlayer.swift */; };
 		2B5688D02B9F96280059FE61 /* VLPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688CF2B9F96280059FE61 /* VLPlayerApp.swift */; };
-		2B5688D22B9F96280059FE61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688D12B9F96280059FE61 /* ContentView.swift */; };
+		2B5688D22B9F96280059FE61 /* PlaylistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688D12B9F96280059FE61 /* PlaylistViewModel.swift */; };
 		2B5688D42B9F96290059FE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5688D32B9F96290059FE61 /* Assets.xcassets */; };
 		2B5688D72B9F96290059FE61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5688D62B9F96290059FE61 /* Preview Assets.xcassets */; };
+		2B5688DE2B9F96370059FE61 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688DD2B9F96370059FE61 /* PlaylistView.swift */; };
+		2B5688EC2BA098550059FE61 /* PlayerProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688EB2BA098550059FE61 /* PlayerProgressBar.swift */; };
+		2B5688EE2BA09B270059FE61 /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688ED2BA09B270059FE61 /* PlayerControlsView.swift */; };
+		2B5688F02BA09C500059FE61 /* PlayerControlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688EF2BA09C500059FE61 /* PlayerControlViewModel.swift */; };
+		2B5688F72BA0B6010059FE61 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688F62BA0B6010059FE61 /* Song.swift */; };
+		2B5688F92BA0B6670059FE61 /* PlaylistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688F82BA0B6670059FE61 /* PlaylistRepository.swift */; };
+		2B5688FC2BA0BE8D0059FE61 /* LocalPlaylistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5688FB2BA0BE8D0059FE61 /* LocalPlaylistRepository.swift */; };
+		2B9794372BA1FD200003C2E5 /* PlayerControlBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9794362BA1FD200003C2E5 /* PlayerControlBar.swift */; };
+		2B9794422BA8CC500003C2E5 /* PlayerControlViewModel+Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9794412BA8CC500003C2E5 /* PlayerControlViewModel+Remote.swift */; };
+		2B97944A2BAC20060003C2E5 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2B97944C2BAC20060003C2E5 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2BE389402BAC2EF3008BAF94 /* DocumentPickerVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3893F2BAC2EF3008BAF94 /* DocumentPickerVIew.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2B4126C92BAC98F400A22755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5688C42B9F96280059FE61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5688CB2B9F96280059FE61;
+			remoteInfo = VLPlayer;
+		};
+		2B4126D82BAC98FC00A22755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5688C42B9F96280059FE61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5688CB2B9F96280059FE61;
+			remoteInfo = VLPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		2B5688CC2B9F96280059FE61 /* VLPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4126B62BAC7B2C00A22755 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		2B4126B82BAC824700A22755 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		2B4126C52BAC98F400A22755 /* VLPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VLPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4126D22BAC98FC00A22755 /* VLPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VLPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4126D42BAC98FC00A22755 /* VLPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLPlayerUITests.swift; sourceTree = "<group>"; };
+		2B4126D62BAC98FC00A22755 /* VLPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B4126DD2BAC992400A22755 /* PlayListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewModelTests.swift; sourceTree = "<group>"; };
+		2B4126E02BAC9CBB00A22755 /* PlaylistRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRepositoryMock.swift; sourceTree = "<group>"; };
+		2B4B1F9A2BACD2C60093385A /* PlayerControlViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlViewModelTests.swift; sourceTree = "<group>"; };
+		2B4B1F9C2BACD41D0093385A /* MockAVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAVPlayer.swift; sourceTree = "<group>"; };
+		2B4B1F9E2BADAEB60093385A /* VLPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VLPlayer.entitlements; sourceTree = "<group>"; };
+		2B5688CC2B9F96280059FE61 /* VLTPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLTPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5688CF2B9F96280059FE61 /* VLPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLPlayerApp.swift; sourceTree = "<group>"; };
-		2B5688D12B9F96280059FE61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B5688D12B9F96280059FE61 /* PlaylistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewModel.swift; sourceTree = "<group>"; };
 		2B5688D32B9F96290059FE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B5688D62B9F96290059FE61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B5688DD2B9F96370059FE61 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		2B5688EB2BA098550059FE61 /* PlayerProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProgressBar.swift; sourceTree = "<group>"; };
+		2B5688ED2BA09B270059FE61 /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
+		2B5688EF2BA09C500059FE61 /* PlayerControlViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlViewModel.swift; sourceTree = "<group>"; };
+		2B5688F62BA0B6010059FE61 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		2B5688F82BA0B6670059FE61 /* PlaylistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRepository.swift; sourceTree = "<group>"; };
+		2B5688FB2BA0BE8D0059FE61 /* LocalPlaylistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPlaylistRepository.swift; sourceTree = "<group>"; };
+		2B9794362BA1FD200003C2E5 /* PlayerControlBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlBar.swift; sourceTree = "<group>"; };
+		2B97943C2BA89FA70003C2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9794412BA8CC500003C2E5 /* PlayerControlViewModel+Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerControlViewModel+Remote.swift"; sourceTree = "<group>"; };
+		2BE3893F2BAC2EF3008BAF94 /* DocumentPickerVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B5688C92B9F96280059FE61 /* Frameworks */ = {
+		2B4126C22BAC98F400A22755 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B4126CF2BAC98FC00A22755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5688C92B9F96280059FE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B97944A2BAC20060003C2E5 /* (null) in Frameworks */,
+				2B97944C2BAC20060003C2E5 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B4126C62BAC98F400A22755 /* VLPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4126DF2BAC9BD700A22755 /* Mocks */,
+				2B4126DD2BAC992400A22755 /* PlayListViewModelTests.swift */,
+				2B4B1F9A2BACD2C60093385A /* PlayerControlViewModelTests.swift */,
+			);
+			path = VLPlayerTests;
+			sourceTree = "<group>";
+		};
+		2B4126D32BAC98FC00A22755 /* VLPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4126D42BAC98FC00A22755 /* VLPlayerUITests.swift */,
+				2B4126D62BAC98FC00A22755 /* VLPlayerUITestsLaunchTests.swift */,
+			);
+			path = VLPlayerUITests;
+			sourceTree = "<group>";
+		};
+		2B4126DF2BAC9BD700A22755 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2B4126E02BAC9CBB00A22755 /* PlaylistRepositoryMock.swift */,
+				2B4B1F9C2BACD41D0093385A /* MockAVPlayer.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		2B5688C32B9F96280059FE61 = {
 			isa = PBXGroup;
 			children = (
 				2B5688CE2B9F96280059FE61 /* VLPlayer */,
+				2B4126C62BAC98F400A22755 /* VLPlayerTests */,
+				2B4126D32BAC98FC00A22755 /* VLPlayerUITests */,
 				2B5688CD2B9F96280059FE61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,7 +154,9 @@
 		2B5688CD2B9F96280059FE61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B5688CC2B9F96280059FE61 /* VLPlayer.app */,
+				2B5688CC2B9F96280059FE61 /* VLTPlayer.app */,
+				2B4126C52BAC98F400A22755 /* VLPlayerTests.xctest */,
+				2B4126D22BAC98FC00A22755 /* VLPlayerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +164,14 @@
 		2B5688CE2B9F96280059FE61 /* VLPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				2B5688CF2B9F96280059FE61 /* VLPlayerApp.swift */,
-				2B5688D12B9F96280059FE61 /* ContentView.swift */,
-				2B5688D32B9F96290059FE61 /* Assets.xcassets */,
-				2B5688D52B9F96290059FE61 /* Preview Content */,
+				2B4B1F9E2BADAEB60093385A /* VLPlayer.entitlements */,
+				2BE389462BAC4289008BAF94 /* Application */,
+				2B5688F42BA0B4740059FE61 /* PlayerControlView */,
+				2B5688F32BA0B46B0059FE61 /* PlayListView */,
+				2B5688FA2BA0B6700059FE61 /* Repository */,
+				2B5688F52BA0B5F40059FE61 /* Models */,
+				2B97944E2BAC2EAC0003C2E5 /* Utilis */,
+				2BE389472BAC42C4008BAF94 /* Resources */,
 			);
 			path = VLPlayer;
 			sourceTree = "<group>";
@@ -62,14 +179,116 @@
 		2B5688D52B9F96290059FE61 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2B4126B62BAC7B2C00A22755 /* test.mp3 */,
 				2B5688D62B9F96290059FE61 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2B5688F32BA0B46B0059FE61 /* PlayListView */ = {
+			isa = PBXGroup;
+			children = (
+				2B5688DD2B9F96370059FE61 /* PlaylistView.swift */,
+				2B5688D12B9F96280059FE61 /* PlaylistViewModel.swift */,
+			);
+			path = PlayListView;
+			sourceTree = "<group>";
+		};
+		2B5688F42BA0B4740059FE61 /* PlayerControlView */ = {
+			isa = PBXGroup;
+			children = (
+				2B5688EF2BA09C500059FE61 /* PlayerControlViewModel.swift */,
+				2B9794412BA8CC500003C2E5 /* PlayerControlViewModel+Remote.swift */,
+				2B5688ED2BA09B270059FE61 /* PlayerControlsView.swift */,
+				2B5688EB2BA098550059FE61 /* PlayerProgressBar.swift */,
+				2B9794362BA1FD200003C2E5 /* PlayerControlBar.swift */,
+			);
+			path = PlayerControlView;
+			sourceTree = "<group>";
+		};
+		2B5688F52BA0B5F40059FE61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B5688F62BA0B6010059FE61 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B5688FA2BA0B6700059FE61 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2B5688F82BA0B6670059FE61 /* PlaylistRepository.swift */,
+				2B5688FB2BA0BE8D0059FE61 /* LocalPlaylistRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2B97944E2BAC2EAC0003C2E5 /* Utilis */ = {
+			isa = PBXGroup;
+			children = (
+				2BE3893F2BAC2EF3008BAF94 /* DocumentPickerVIew.swift */,
+			);
+			path = Utilis;
+			sourceTree = "<group>";
+		};
+		2BE389462BAC4289008BAF94 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2B5688CF2B9F96280059FE61 /* VLPlayerApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2BE389472BAC42C4008BAF94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B4126B82BAC824700A22755 /* Localizable.xcstrings */,
+				2B5688D52B9F96290059FE61 /* Preview Content */,
+				2B97943C2BA89FA70003C2E5 /* Info.plist */,
+				2B5688D32B9F96290059FE61 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B4126C42BAC98F400A22755 /* VLPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4126CB2BAC98F400A22755 /* Build configuration list for PBXNativeTarget "VLPlayerTests" */;
+			buildPhases = (
+				2B4126C12BAC98F400A22755 /* Sources */,
+				2B4126C22BAC98F400A22755 /* Frameworks */,
+				2B4126C32BAC98F400A22755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4126CA2BAC98F400A22755 /* PBXTargetDependency */,
+			);
+			name = VLPlayerTests;
+			productName = VLPlayerTests;
+			productReference = 2B4126C52BAC98F400A22755 /* VLPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B4126D12BAC98FC00A22755 /* VLPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4126DA2BAC98FC00A22755 /* Build configuration list for PBXNativeTarget "VLPlayerUITests" */;
+			buildPhases = (
+				2B4126CE2BAC98FC00A22755 /* Sources */,
+				2B4126CF2BAC98FC00A22755 /* Frameworks */,
+				2B4126D02BAC98FC00A22755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4126D92BAC98FC00A22755 /* PBXTargetDependency */,
+			);
+			name = VLPlayerUITests;
+			productName = VLPlayerUITests;
+			productReference = 2B4126D22BAC98FC00A22755 /* VLPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		2B5688CB2B9F96280059FE61 /* VLPlayer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B5688DA2B9F96290059FE61 /* Build configuration list for PBXNativeTarget "VLPlayer" */;
@@ -77,14 +296,17 @@
 				2B5688C82B9F96280059FE61 /* Sources */,
 				2B5688C92B9F96280059FE61 /* Frameworks */,
 				2B5688CA2B9F96280059FE61 /* Resources */,
+				2B97944D2BAC24D70003C2E5 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = VLPlayer;
+			packageProductDependencies = (
+			);
 			productName = VLPlayer;
-			productReference = 2B5688CC2B9F96280059FE61 /* VLPlayer.app */;
+			productReference = 2B5688CC2B9F96280059FE61 /* VLTPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,6 +319,14 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					2B4126C42BAC98F400A22755 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2B5688CB2B9F96280059FE61;
+					};
+					2B4126D12BAC98FC00A22755 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2B5688CB2B9F96280059FE61;
+					};
 					2B5688CB2B9F96280059FE61 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -109,42 +339,202 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				fr,
 			);
 			mainGroup = 2B5688C32B9F96280059FE61;
+			packageReferences = (
+			);
 			productRefGroup = 2B5688CD2B9F96280059FE61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2B5688CB2B9F96280059FE61 /* VLPlayer */,
+				2B4126C42BAC98F400A22755 /* VLPlayerTests */,
+				2B4126D12BAC98FC00A22755 /* VLPlayerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B4126C32BAC98F400A22755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4126E52BACA14400A22755 /* test.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4126D02BAC98FC00A22755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B5688CA2B9F96280059FE61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2B5688D72B9F96290059FE61 /* Preview Assets.xcassets in Resources */,
 				2B5688D42B9F96290059FE61 /* Assets.xcassets in Resources */,
+				2B4126B92BAC824700A22755 /* Localizable.xcstrings in Resources */,
+				2B4126B72BAC7B2C00A22755 /* test.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B97944D2BAC24D70003C2E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2B4126C12BAC98F400A22755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4126E32BAC9D2800A22755 /* Song.swift in Sources */,
+				2B4B1F9B2BACD2C60093385A /* PlayerControlViewModelTests.swift in Sources */,
+				2B4126E62BACA16E00A22755 /* PlayerControlViewModel.swift in Sources */,
+				2B4126DE2BAC992400A22755 /* PlayListViewModelTests.swift in Sources */,
+				2B4B1F9D2BACD41D0093385A /* MockAVPlayer.swift in Sources */,
+				2B4126E42BAC9D8600A22755 /* PlaylistViewModel.swift in Sources */,
+				2B4126E22BAC9D0B00A22755 /* PlaylistRepository.swift in Sources */,
+				2B4126E12BAC9CBB00A22755 /* PlaylistRepositoryMock.swift in Sources */,
+				2B4126E72BACA17000A22755 /* PlayerControlViewModel+Remote.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4126CE2BAC98FC00A22755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4126D72BAC98FC00A22755 /* VLPlayerUITestsLaunchTests.swift in Sources */,
+				2B4126D52BAC98FC00A22755 /* VLPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B5688C82B9F96280059FE61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5688D22B9F96280059FE61 /* ContentView.swift in Sources */,
+				2B5688F92BA0B6670059FE61 /* PlaylistRepository.swift in Sources */,
+				2B5688EC2BA098550059FE61 /* PlayerProgressBar.swift in Sources */,
+				2B9794422BA8CC500003C2E5 /* PlayerControlViewModel+Remote.swift in Sources */,
+				2BE389402BAC2EF3008BAF94 /* DocumentPickerVIew.swift in Sources */,
+				2B5688D22B9F96280059FE61 /* PlaylistViewModel.swift in Sources */,
+				2B5688F72BA0B6010059FE61 /* Song.swift in Sources */,
+				2B5688FC2BA0BE8D0059FE61 /* LocalPlaylistRepository.swift in Sources */,
+				2B5688EE2BA09B270059FE61 /* PlayerControlsView.swift in Sources */,
+				2B5688DE2B9F96370059FE61 /* PlaylistView.swift in Sources */,
+				2B5688F02BA09C500059FE61 /* PlayerControlViewModel.swift in Sources */,
+				2B9794372BA1FD200003C2E5 /* PlayerControlBar.swift in Sources */,
 				2B5688D02B9F96280059FE61 /* VLPlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2B4126CA2BAC98F400A22755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5688CB2B9F96280059FE61 /* VLPlayer */;
+			targetProxy = 2B4126C92BAC98F400A22755 /* PBXContainerItemProxy */;
+		};
+		2B4126D92BAC98FC00A22755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5688CB2B9F96280059FE61 /* VLPlayer */;
+			targetProxy = 2B4126D82BAC98FC00A22755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2B4126CC2BAC98F400A22755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LDQL2Y9439;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vilingtech.VLPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VLPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VLPlayer";
+			};
+			name = Debug;
+		};
+		2B4126CD2BAC98F400A22755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vilingtech.VLPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VLPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VLPlayer";
+			};
+			name = Release;
+		};
+		2B4126DB2BAC98FC00A22755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LDQL2Y9439;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vilingtech.VLPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VLPlayer;
+			};
+			name = Debug;
+		};
+		2B4126DC2BAC98FC00A22755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vilingtech.VLPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VLPlayer;
+			};
+			name = Release;
+		};
 		2B5688D82B9F96290059FE61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -269,24 +659,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VLPlayer/VLPlayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VLPlayer/Preview Content\"";
-				DEVELOPMENT_TEAM = 2924RZYC27;
+				DEVELOPMENT_ASSET_PATHS = "\"VLPlayer/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = LDQL2Y9439;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VLPlayer/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vilingtech.VLPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VLTPlayer;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,24 +694,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VLPlayer/VLPlayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VLPlayer/Preview Content\"";
-				DEVELOPMENT_TEAM = 2924RZYC27;
+				DEVELOPMENT_ASSET_PATHS = "\"VLPlayer/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = LDQL2Y9439;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VLPlayer/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vilingtech.VLPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VLTPlayer;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,6 +727,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B4126CB2BAC98F400A22755 /* Build configuration list for PBXNativeTarget "VLPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4126CC2BAC98F400A22755 /* Debug */,
+				2B4126CD2BAC98F400A22755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4126DA2BAC98FC00A22755 /* Build configuration list for PBXNativeTarget "VLPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4126DB2BAC98FC00A22755 /* Debug */,
+				2B4126DC2BAC98FC00A22755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2B5688C72B9F96280059FE61 /* Build configuration list for PBXProject "VLPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
